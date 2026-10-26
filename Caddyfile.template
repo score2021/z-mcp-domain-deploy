@@ -1,0 +1,30 @@
+{
+    admin off
+    auto_https disable_redirects
+    servers {
+        protocols h1 h2
+    }
+}
+__DOMAIN__ {
+    tls {
+        issuer acme {
+            dir https://acme-v02.api.letsencrypt.org/directory
+            disable_http_challenge
+        }
+    }
+    request_body {
+        max_size 64KB
+    }
+    @mcp path /mcp/v1 /healthz
+    handle @mcp {
+        reverse_proxy 127.0.0.1:__PORT__ {
+            flush_interval -1
+            transport http {
+                response_header_timeout 30s
+            }
+        }
+    }
+    handle {
+        respond 404
+    }
+}

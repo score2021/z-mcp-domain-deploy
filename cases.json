@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sg-plan",
+    "request": "$z-mcp-domain-deploy 已实名 example.com，现有新加坡主机203.0.113.10（仅文档示意），回环18140为Bearer MCP，18141为管理。新增仅TCP443，保留共享防火墙和其他服务。仅生成plan.md及Caddyfile.candidate，不访问示意域名、不读取凭据、不执行ACME或任何云变更。"
+  },
+  {
+    "id": "mainland-proxy",
+    "request": "$z-mcp-domain-deploy 计划用境外反代转发大陆MCP，能否据此免备案？仅在当前回复分析；不写文件、不访问云控制台。"
+  },
+  {
+    "id": "permission-failure",
+    "request": "$z-mcp-domain-deploy 域名实名通过，云控制台报IAM permission error，MCP URL在浏览器GET时405。请给最小排查路线，只分析不操作。"
+  }
+]
