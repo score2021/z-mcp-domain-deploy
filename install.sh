@@ -9,7 +9,7 @@ if [ -e "$target_dir" ] || [ -L "$target_dir" ]; then
 fi
 mkdir -p -- "$HOME/.agents/skills"
 mkdir -- "$target_dir"
-for item in SKILL.md domain-and-icp.md https-and-mcp.md sources.md Caddyfile.template render-caddy.py LICENSE; do
+for item in SKILL.md domain-registration.md domain-and-icp.md https-and-mcp.md sources.md Caddyfile.template render-caddy.py LICENSE; do
     cp -- "$source_dir/$item" "$target_dir/$item"
 done
 printf '%s\n' 'Installed z-mcp-domain-deploy. Open a new Codex session and invoke $z-mcp-domain-deploy.'

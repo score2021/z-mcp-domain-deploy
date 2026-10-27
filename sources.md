@@ -1,6 +1,11 @@
 # 官方来源与适用范围
 
-核对日期：2026-10-26。执行时再次核对当前文档、云地域及目标客户端版本，不据历史页面保证未来规则。
+核对日期：2026-10-27。执行时再次核对当前文档、云地域及目标客户端版本，不据历史页面保证未来规则。
+
+- [阿里云：如何注册域名](https://help.aliyun.com/zh/dws/user-guide/how-to-register-a-domain-name)：可注册、已注册和二手交易的区别，信息模板及注册限制。
+- [阿里云：如何完成域名实名认证](https://help.aliyun.com/zh/dws/user-guide/how-to-complete-domain-name-authentication)：信息模板认证、关联域名与审核状态。
+- [阿里云：查看域名基本信息](https://help.aliyun.com/zh/dws/user-guide/query-the-basic-information-of-a-domain-name)：域名状态、到期时间、DNS 和管理权限。
+- [阿里云：域名续费](https://help.aliyun.com/zh/dws/user-guide/domain-name-renewal1)：续费和赎回，实际期限及费用以当前控制台为准。
 
 - [阿里云：ICP filing and DNS resolution](https://www.alibabacloud.com/help/en/dns/icp-and-dns)：大陆/境外托管与备案、DNS 的区别。本文只作接入路线判断，不代替对具体服务类型的监管认定。
 - [Caddy Automatic HTTPS](https://caddyserver.com/docs/automatic-https)：ACME、TLS-ALPN、持久化与自动续期。
