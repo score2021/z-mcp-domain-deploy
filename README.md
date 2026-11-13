@@ -1,5 +1,12 @@
 # z-mcp-domain-deploy
 
+## ✨ 功能概览
+
+- 梳理域名注册、实名认证、DNS、可信 HTTPS 与 MCP 接入。
+- 依据实际入口地域分别判断备案、解析和 TLS 的适用条件。
+- 分层验证连接、鉴权与客户端调用，并避免泄露凭据。
+> 功能概览由 [Lobe Readme Wizard](https://github.com/lobehub/lobe-readme-wizard) 的 Markdown 生成器生成，内容依据本仓库资料整理。
+
 从选择、注册与实名认证域名，到把已有主机上的自建 MCP 接到可信 HTTPS：分清实名、ICP备案、DNS、TLS 与实际 MCP 可用性，避免多买跳板机或通过放宽安全策略“跑通”。面向负责自建 MCP、客户接入测试和云部署的开发/测试人员。
 
 ## 这个 skill 具体做什么
